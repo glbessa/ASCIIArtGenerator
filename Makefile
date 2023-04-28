@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -I$(IDIR) -g
-CLIBS = -lm
+CLIBS = -lm -lpthread
 
 IDIR = include
 SRCDIR = src
